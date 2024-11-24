@@ -15,7 +15,7 @@ typedef struct{
 }d_array; 
 
 // Create a new array of specified starting length and type
-d_array create_array(int length, char * type); 
+d_array * create_array(int length, char * type); 
 
 // Add data to end of array 
 void append(d_array array, data_type data);

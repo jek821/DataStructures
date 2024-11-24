@@ -2,12 +2,9 @@
 #include "da.h"
 
 // Create a new array of specified starting length and type
-data_type * create_array( int lengh, char * type){
-      switch (*type) {
-        case "int":
-            
+d_array * create_array(int length, char * type){
 
-    }
+      
 }
 
 
